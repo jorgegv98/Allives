@@ -16,7 +16,7 @@ import javafx.stage.Stage;
  * @author 03154870y
  */
 public class PROYECTO_ALLIVES extends Application {
-    
+    String pepe;
     @Override
     public void start(Stage stage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
